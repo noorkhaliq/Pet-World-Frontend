@@ -1,0 +1,46 @@
+<template>
+  <div class="contact mt-5">
+    <div class="container">
+      <div class="row ">
+        <div class="col-md-12">
+          <div class="titlepage text-center mb-5">
+            <h2>Contact Us</h2>
+          </div>
+        </div>
+        <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+          <form id="request" class="main_form">
+            <div class="row">
+              <div class="col-md-12 ">
+                <input class="contactus fw-normal w-100 h-75 mb-5" placeholder="Name" type="type" name=" Name">
+              </div>
+              <div class="col-md-12">
+                <input class="contactus fw-normal w-100 h-75 mb-5 " placeholder="Phone number" type="type" name="Phone Number">
+              </div>
+              <div class="col-md-12">
+                <input class="contactus fw-normal w-100 h-75 mb-5" placeholder="Email Address" type="type" name="Email">
+              </div>
+              <div class="col-md-12">
+                <textarea class="textarea w-100 mb-4 fw-normal" placeholder="Message" type="type" ></textarea>
+              </div>
+              <div class="col-md-12">
+                <button class="send_btn btn bg-dark text-light text-center">Send</button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div class="col-lg-6 offset-lg-3 col-md-8 offset-md-2">
+          <div class="responsive-map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2822.7806761080233!2d-93.29138368446431!3d44.96844997909819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x52b32b6ee2c87c91%3A0xc20dff2748d2bd92!2sWalker+Art+Center!5e0!3m2!1sen!2sus!4v1514524647889" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</template>
+
+<script>
+export default  {
+  layout :'blog',
+}
+</script>
